@@ -25,7 +25,7 @@ export default function Task ({task : {id, title, state}, onArchiveTask, onPinTa
 					value={title}
 					readOnly={true}
 					placeholder={'Input title'}
-					style={{background : 'red'}}
+					style={{background : 'green'}}
 				/>
 			</div>
 
